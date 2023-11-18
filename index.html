@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szymon Sowiński</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body">
+    <header>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__point"><a href="#strona-glowna" class="navigation__link">Strona główna</a></li>
+                <li class="navigation__point"><a href="#o-mnie" class="navigation__link">O mnie</a></li>
+                <li class="navigation__point"><a href="#zainteresowania" class="navigation__link">Zainteresowania</a>
+                </li>
+                <li class="navigation__point"><a href="#ulubione-filmy" class="navigation__link">Ulubione filmy</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="main__section" id="strona-glowna">
+            <img src="images/my_photo.jpeg" class="section__image" alt="Moje zdjęcie!">
+            <h1 class="section__header">Szymon Sowiński</h1>
+        </section>
+        <section class="main__section" id="o-mnie">
+            <h2 class="section__header">Kilka informacji o mnie</h2>
+            <p class="section__paragraph">Hej, nazywam się Szymon.
+                Uczęsczam do technikum na kierunek technik programista. Dołączyłem do kursu YouCode, aby mieć szansę
+                rozwoju w programowaniu poza szkołą.
+            </p>
+        </section>
+        <section class="main__section" id="zainteresowania">
+            <h2 class="section__header">Moje Zainteresowania</h2>
+            <p class="section__paragraph">Poza rzeczami związanymi z komputerem interesuję mnie też sport. Interesuję
+                się siatkówką, F1, piłką nożną i koszykówką. Kocham muzykę😍.
+            </p>
+        </section>
+        <section class="main__section" id="ulubione-filmy">
+            <div class="section__div">
+                <table class="section__table">
+                    <caption class="table__caption">Moje ulubione filmy i seriale</caption>
+                    <tr>
+                        <td class="table__cell table__header" class="table__cell" scope="col">Tytuł</th>
+                        <td class="table__cell table__header" class="table__cell" scope="col">Reżyser</th>
+                        <td class="table__cell table__header" class="table__cell" scope="col">Rok wydania</th>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Top Gun: Maverick</td>
+                        <td class="table__cell">Joseph Kosinski</td>
+                        <td class="table__cell">2022</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Enola Holmes</td>
+                        <td class="table__cell">Harry Bradbeer</td>
+                        <td class="table__cell">2020</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Stranger Things</td>
+                        <td class="table__cell">Shawn Levy</td>
+                        <td class="table__cell">2016-2022</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Dom z papieru</td>
+                        <td class="table__cell">Jesúsa Colmenara</td>
+                        <td class="table__cell">2017-2021</td>
+                    </tr>
+                </table>
+            </div>
+            <button class="section__button section__button--color">Zmień kolor tła na ciemniejszy!</button>
+        </section>
+    </main>
+</body>
+
+</html>
