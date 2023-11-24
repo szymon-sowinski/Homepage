@@ -8,8 +8,11 @@
     <meta property="og:image" content="images/homepage.png">
     <title>Homepage - Szymon Sowiński</title>
     <link rel="icon" href="images/icon.png">    
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +34,7 @@
         </nav>
     </header>
     <main class="main">
-        <section class="main__section" id="strona-glowna">
+        <section class="section" id="strona-glowna">
             <img src="images/my_photo.jpeg" class="section__image" alt="Moje zdjęcie!">
             <h1 class="section__header">Szymon Sowiński</h1>
         </section>
@@ -48,14 +51,14 @@
                 się siatkówką, F1, piłką nożną i koszykówką. Kocham muzykę😍.
             </p>
         </section>
-        <section class="main__section" id="ulubione-filmy">
-            <div class="section__div">
-                <table class="section__table">
+        <section class="section" id="ulubione-filmy">
+            <div class="section__container">
+                <table class="table">
                     <caption class="table__caption">Moje ulubione filmy i seriale</caption>
                     <tr>
-                        <td class="table__cell table__header" class="table__cell" scope="col">Tytuł</th>
-                        <td class="table__cell table__header" class="table__cell" scope="col">Reżyser</th>
-                        <td class="table__cell table__header" class="table__cell" scope="col">Rok wydania</th>
+                        <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+                        <th class="table__cell table__cell--header" scope="col">Reżyser</th>
+                        <th class="table__cell table__cell--header" scope="col">Rok wydania</th>
                     </tr>
                     <tr class="table__row">
                         <td class="table__cell">Top Gun: Maverick</td>
@@ -79,7 +82,7 @@
                     </tr>
                 </table>
             </div>
-            <button class="section__button section__button--color">Zmień kolor tła na ciemniejszy!</button>
+            <button class="section__button section__button--color js-button">Zmień kolor tła!</button>
         </section>
     </main>
 </body>

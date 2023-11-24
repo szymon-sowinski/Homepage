@@ -3,3 +3,7 @@ Welcome to my Homepage! This is one of my very first projects done in September 
 
 ## Demo
 https://szymon-sowinski.github.io/Homepage/
+![Website layout](images/layout.png)
+
+### Used technologies
+Project includes HTML, CSS and JavaScript.
